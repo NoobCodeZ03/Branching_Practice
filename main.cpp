@@ -11,8 +11,15 @@ public:
   int getReal() {
     return real;
   }
-  int getImag() {
+  int getIcmag() {
     return imag;
+  }
+
+  void setReal(int real) {
+    this->real = real;
+  }
+  void setImag(int imag) {
+    this->imag = imag;
   }
 }
 
