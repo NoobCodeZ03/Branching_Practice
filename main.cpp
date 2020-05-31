@@ -11,7 +11,7 @@ public:
   int getReal() {
     return real;
   }
-  int getImag() {
+  int getIcmag() {
     return imag;
   }
 }
