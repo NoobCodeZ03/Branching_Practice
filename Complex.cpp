@@ -1,18 +1,18 @@
 #include "Complex.hpp"
 
-Complex::Complex (int real, int imag): real(real), imag(imag) {}
+Complex::Complex (double real, double imag): real(real), imag(imag) {}
 
-int Complex::getReal() {
+double Complex::getReal() {
   return real;
 }
-int Complex::getImag() {
+double Complex::getImag() {
   return imag;
 }
 
-void Complex::setReal(int real) {
+void Complex::setReal(double real) {
   this->real = real;
 }
-void Complex::setImag(int imag) {
+void Complex::setImag(double imag) {
   this->imag = imag;
 }
 
